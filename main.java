@@ -2,13 +2,14 @@
 
 /*     KEYMAP
     ------------
+    LEFT CLICK -> PAINT the grid with the specified element on the top left corner
     UP ARROW & DOWN ARROW     -> INCREASE and DECREASE cursor size respectively
     RIGHT ARROW & LEFT ARROW  -> cyce cursor type FORWARD and BACKWARD respectively
     G -> toggle GRIDLINES
     C -> CLEAR the grid
     SPACE BAR -> PAUSE the simulation
     S -> STEP the simulation if paused
-    E -> ELEMENT SELECT
+    0-6 -> ELEMENT SELECT (each number corresponds to the index of an element in the elementNames array)
 */
 
 final int scale = 5;
@@ -33,7 +34,7 @@ final String[] elementNames = {
   "Wood",
   "Stone",
   "Steam",
-  "Acid",
+  "Acid", // TODO - CORROSION
 };
 final color[] elementColors = {
   color(0,0,0,1),        // Air
