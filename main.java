@@ -1,5 +1,3 @@
-/* Muhammad Nabil */
-
 /*     KEYMAP
     ------------
     LEFT CLICK -> PAINT the grid with the specified element on the top left corner
